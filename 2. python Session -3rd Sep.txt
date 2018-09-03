@@ -1,0 +1,63 @@
+Today's TOpics
+===================
+
+Functions
+===================
+	
+	input()	: read data from console , default data type is str 
+	print() : show data to user/ouput
+	int()    : convert to int
+	str()	 : convert to str
+	type()	: show data type /class type	
+
+Operator
+===================
+	Arithmetic:
+		+
+		-
+		*			: 2*3	= 6
+		**			: 2**6  = 16
+		/			: 85/10 = 8.5
+		//			: 85//10 = 8
+		%			: 85%10 = 5
+
+	Conditional:
+		>
+		>=
+		<
+		<=
+		==
+		!=
+	Logical:
+		and
+		or 
+	Keywords:
+		in 
+		not in 
+		
+Conditinal: is decision making statement
+===========================================
+-Python doesn't support switch case
+-If condition types:
+1. if condition 
+2. if else condition 
+3. if elif elif ..... else condition  / ladder if else 
+4. nested if else / if inside if condition 
+
+
+Loop : is iterator or repeation of statement/command 
+===================
+Example:
+ 1 2 3 ...100
+
+Fundamental of loop:
+	-init / start 		: 1
+	-condition/limit 	: 100
+	-increment/decrement	: +1
+	
+
+There are following types of loop:
+	-while loop 
+	-for loop 
+	
+	

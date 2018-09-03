@@ -1,0 +1,94 @@
+Today's Topics
+==================
+->OVerview of Python , and It's Applicaitons
+->Python Environment 
+
+->Hello/First Program in python
+->Data Type and variable
+->Input/Output
+->COndition
+
+
+OVerview of Python , and It's Applicaitons
+============================================
+->python is open source (free) programing language 
+->python is plateform independent (suport to all operating -mac,win,linux etc.)
+->python is light weight and easy to understand/use 
+->python is interpreter based language(line by line execution)
+->python is indentation/allignment based language
+
+
+::Core Python/Basic python 
+
+It's Applicaitons
+=====================
+->Data Sci.
+ -ML
+ -AI
+ -Automation 
+			
+->Web Development  : DJango 
+
+->Software testing : Selenium  
+
+->EH and Security 
+
+Python Environment 
+======================
+Version:
+	3.7
+	3.6 **
+	3.5
+	3.4
+	...
+	...
+	2.7  **
+
+
+Python Editor:
+	-Python Shell/Command Line / Console
+		>>>
+	-Python Editor: IDLE /GUI
+		Python code can be saved with .py extension 
+	-Other:
+		-PyCharm
+		-Annoconda
+		-Spyder
+		-VSCode 
+		etc.
+	
+ 
+Hello/First Program in python
+===================================
+a =11
+b =3434
+c =a+b
+print(c)
+print('sum of two numbers :',c)
+
+
+Essentials:
+-----
+-Python is indentation bases language 
+#  : single line comment
+''' : multiple line comment 
+'''
+	
+Data Type and variable
+=============================
+int		: a =111
+float		: a =3333.2
+str		: a ='sfff' , a ="sjhsjgfsh33"
+bool		: a =True	
+list		: a =[111,2,2,34,'ffdd','fdfff']
+tuple		: a =(1,2,2,3,'444')  	# read only 	
+dict		: d ={'a':'alpha','b':'beta','c':'ceta',1:'one'}
+set 		: a ={'dove','lux','dove'}
+		 store only unique value , one dove will remove automatically 
+		
+
+
+
+
+
+

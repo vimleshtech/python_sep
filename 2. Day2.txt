@@ -1,0 +1,55 @@
+Today's Topics
+=====================
+-break, continue
+-nested loo
+-list and it's operaitons
+-GUI
+
+break, continue
+=======================
+break: to terminate the iterations/loop when condition will match
+	
+continue : to skip the current iteration when condition will match
+
+
+nested loop : loop inside loop /loop within loop 
+==============
+
+list and it's operaitons
+=================================
+list 	: collection is collection of data or values 
+ 	: multiple values can be stored on single variable 
+	: a =[1,2,3,4,5,'fhsjs','444']
+
+*List index will start at 0 
+
+There are folloing inbuilt methods:
+append()		: add new elemement after last index 
+pop()			: show and remove last element 
+insert()		: add new element at given position 
+remove()		: remove existing element 
+max()			: return highest value
+min()			: return lowest value
+sum()			: return total of all elements 
+len()			: return size of list (count of elements)
+sort()			: arrange data in acending order 
+
+slicer 			: return element by given index 
+
+etc.
+
+
+GUI : graphical user interface 	
+===================================
+There is inbuilt module :
+	tkinter 
+	
+There are folling inbuilt classes:
+	-Tk
+	-Label
+	-Button
+	-pack()
+	
+	
+	
+

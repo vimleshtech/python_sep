@@ -1,0 +1,76 @@
+Install driver in python
+=================================
+cd C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Scripts
+pip install mysql-connector
+
+
+
+Database Details/Server Credentials
+==============================
+-> My SQL server		:
+
+-> Oracle
+-> MS SQL Server
+etc.
+
+My SQL server		:
+	ServerIp Address :
+				localhost  or 127.0.0.1
+	User id 	: 
+			root
+	Password 	:
+			root 
+	Database :
+			
+		show databases;	 -- show list of all existing databases
+		
+			
+		create database learning;  --create learning db
+	
+
+		use learning;			-- switch database / go insiide db
+	
+
+		show tables;			--show list of existing tables
+
+		
+		--create table 
+		create table emp(eid int, name varchar(100));
+
+
+		--insert data 
+		insert into emp(eid,name) values(1,'raman');
+
+		-view data 
+		select * from emp;
+
+
+		--where / search data 
+		select * from emp where eid=1;
+		select * from emp where eid>1;
+
+
+		select * from emp where name like 'a%';
+		select * from emp where name like '%a';
+		select * from emp where name like '%a%'; 
+		select * from emp where email like '%@gmail.com';
+		select * from emp where name like 'a%b___@gmail.com';
+			% : any chars, any no. of times
+			_  : any chars given no. of times 
+		
+
+Python
+========================
+
+
+		
+				
+
+
+			
+
+
+
+			
+
+									

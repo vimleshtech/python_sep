@@ -1,0 +1,46 @@
+import mysql.connector#load /import library /module
+
+#establish the connection between python to mysql server
+c = mysql.connector.connect(host="localhost",user="root",password="root",database="learning")
+
+#create object of cursor , which can execute/run/fire sql statement
+cur = c.cursor()
+
+
+while True:
+
+     op = input('press 1 for add new row, 2 for show 3 for delete 4 for exit ')
+
+     if op =='1':
+               eid = input('enter eid  :')
+               name = input('enter name :')
+               # "+eid+"
+               #cur.execute("insert into emp(eid,name) values(1,'xyz')")
+               cur.execute("insert into emp(eid,name) values("+eid+",'"+name+"')")               
+               c.commit()
+
+     elif op =='2':
+          
+                    #execute sql command/statement 
+                    cur.execute("select * from emp")
+
+                    #read data from cur object 
+                    out  = cur.fetchall()
+
+
+                    #iterate the list 
+                    for r in out:
+                         print(r)
+
+     elif op =='3':
+                    eid = input('enter eid to remove :')
+                    cur.execute("delete from emp where eid ="+eid)
+                    c.commit()
+                    
+
+     elif op =='4':
+          break
+     else:
+          print('invalid choice')
+          
+          

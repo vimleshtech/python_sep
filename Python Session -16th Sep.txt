@@ -1,0 +1,18 @@
+Functions
+===========
+Model 
+	-Regression
+	-DecisionTree
+	-Cluster
+	-Logistics 
+	
+
+Modules:
+----------
+pandas		: data frame
+matplotlib	: graph / visualization 
+scipy		: algo
+sklearn		: algo 
+
+
+

@@ -1,0 +1,45 @@
+import re # regular expression 
+import tweepy #access to tweet app
+from tweepy import OAuthHandler #authenication 
+from textblob import TextBlob #text/tweet parse
+
+consumer_key = 'TL7RyLnfilYH6xaoAlS0XFDCg'
+consumer_secret = 'u5uBn4P62PMIxT4uwUVTl1Ycx4rsfByFs6jl2e4SQ9zDjPIzCO'
+access_token = '919434545924935681-2woCDEXuXQdhJewDaCRBqHBYmi5SFDN'
+access_token_secret = 'T29jqUm6rZqsRYO7AGc47GlgYTaAaN5OtJD0DATo1uBjh'
+
+
+
+auth = OAuthHandler(consumer_key, consumer_secret)
+# set access token and secret
+auth.set_access_token(access_token, access_token_secret)
+# create tweepy API object to fetch tweets
+api = tweepy.API(auth)
+
+print(api , ' login success')
+
+leader = ['Narendra Modi','Rahul Gandhi']
+
+f = open(r'C:\Users\anilk\Desktop\output.txt','a')
+for l in leader:
+    f.write('--------'+l+'----------\n')
+    data = api.search(q=l,count=5)
+    for d in data:
+        print (d.text)
+        f.write(d.text)
+        f.write('\n')
+
+
+f.close()
+
+#t1 : good -2, bad  -2 , hello -4
+
+
+
+        
+        
+
+
+        
+
+
